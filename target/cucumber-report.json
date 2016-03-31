@@ -1,0 +1,41 @@
+[
+  {
+    "id": "verify-the-documentation-for-the-advanced-features-in-selenium",
+    "description": "\r\nIn order to show you a way to communicate with non technical stakeholder\r\nI want to introduce Cucumber in the video course \"Mastering Selenium Testing Tools\"",
+    "name": "Verify the documentation for the advanced features in Selenium",
+    "keyword": "Feature",
+    "line": 1,
+    "elements": [
+      {
+        "id": "verify-the-documentation-for-the-advanced-features-in-selenium;selenium-page-object-design-pattern",
+        "description": "",
+        "name": "Selenium Page Object Design Pattern",
+        "keyword": "Scenario",
+        "line": 6,
+        "steps": [
+          {
+            "name": "that seleniumhq.org is available",
+            "keyword": "Given ",
+            "line": 7
+          },
+          {
+            "name": "I read the documentation about page objects",
+            "keyword": "When ",
+            "line": 8
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "name": "I should see the title \"Test Design Considerations — Selenium Documentation\" #Correct Title",
+            "keyword": "Then ",
+            "line": 9,
+            "match": {}
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "uri": "com\\packtpub\\mastering\\selenium\\AdvancedDocumentation.feature"
+  }
+]
